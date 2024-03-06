@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>        
+    <div class="app-title">Calculator</div>
+    <div class="container">
+        <div class="calculator">
+            <div class="display">
+                <div class="display-head" id="display-head"></div>
+                <div class="display-main" id="display-main">0</div>
+            </div>
+            <div class="inputs">
+                <button onclick="divide()">/</button>
+                <button onclick="multiply()">x</button>
+                <button onclick="add()">+</button>
+                <button onclick="subtract()">-</button>
+
+                <button onclick="clickSeven()">7</button>
+                <button onclick="clickEight()">8</button>
+                <button onclick="clickNine()">9</button>
+                <button onclick="clearDisplay()">C</button>
+
+                <button onclick="clickFour()">4</button>
+                <button onclick="clickFive()">5</button>
+                <button onclick="clickSix()">6</button>
+                <button onclick="del()">Del</button>
+                <button onclick="clickOne()">1</button>
+                <button onclick="clickTwo()">2</button>
+                <button onclick="clickThree()">3</button>
+
+                <button>√</button>
+                <button onclick="clickZero()">0</button>
+                <button>.</button>
+                <button onclick="equals()" id="equals">=</button>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
